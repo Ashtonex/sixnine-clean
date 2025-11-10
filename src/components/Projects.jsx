@@ -1,5 +1,9 @@
 // src/components/Projects.jsx
 import React from 'react';
+import harareComplex from '../assets/project-images/harare-complex.jpg';
+import kadomaVillas from '../assets/project-images/kadoma-villas.jpg';
+import chinhoyiSchool from '../assets/project-images/chinhoyi-school.jpg';
+import bulawayoPlant from '../assets/project-images/bulawayo-plant.jpg';
 
 function Projects() {
   const projectList = [
@@ -17,6 +21,12 @@ function Projects() {
           <div key={index} className="project-card">
             <img src={project.image} alt={project.title} />
             <div className="project-title">{project.title}</div>
+
+<img src={harareComplex} alt="Harare Complex" />
+<img src={kadomaVillas} alt="Kadoma Villas" />
+<img src={chinhoyiSchool} alt="Chinhoyi School" />
+<img src={bulawayoPlant} alt="Bulawayo Plant" />
+            
           </div>
         ))}
       </div>
