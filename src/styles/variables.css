@@ -1,0 +1,9 @@
+/* src/styles/variables.css */
+:root {
+  --primary-color: #0A1D3B;       /* Dark Blue */
+  --accent-color: #FDCB00;        /* Yellow */
+  --text-color: #FFFFFF;          /* White */
+  --bg-light: #f9f9f9;
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --gradient-accent: linear-gradient(135deg, #FDCB00, #f7a400);
+}
